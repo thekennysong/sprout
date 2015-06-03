@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-l-less' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'gulp-l-less', null ]
+6 verbose cache add name=undefined spec="gulp-l-less" args=["gulp-l-less",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-l-less',
+7 verbose parsed url   path: 'gulp-l-less',
+7 verbose parsed url   href: 'gulp-l-less' }
+8 silly lockFile 118d7c97-gulp-l-less gulp-l-less
+9 verbose lock gulp-l-less /Users/Kenny/.npm/118d7c97-gulp-l-less.lock
+10 silly lockFile 118d7c97-gulp-l-less gulp-l-less
+11 silly lockFile 118d7c97-gulp-l-less gulp-l-less
+12 verbose addNamed [ 'gulp-l-less', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c059c76c-gulp-l-less gulp-l-less@
+15 verbose lock gulp-l-less@ /Users/Kenny/.npm/c059c76c-gulp-l-less.lock
+16 silly addNameRange { name: 'gulp-l-less', range: '*', hasData: false }
+17 verbose request where is /gulp-l-less
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 333a942476ca7918
+20 verbose url raw /gulp-l-less
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-l-less' ]
+22 verbose url resolved https://registry.npmjs.org/gulp-l-less
+23 verbose request where is https://registry.npmjs.org/gulp-l-less
+24 info trying registry request attempt 1 at 22:18:20
+25 http GET https://registry.npmjs.org/gulp-l-less
+26 http 404 https://registry.npmjs.org/gulp-l-less
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Wed, 03 Jun 2015 03:18:20 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1433301500.917111,VS0,VE66' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Wed, 03 Jun 2015 03:18:20 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1433301500.917111,VS0,VE66' } ]
+29 silly lockFile c059c76c-gulp-l-less gulp-l-less@
+30 silly lockFile c059c76c-gulp-l-less gulp-l-less@
+31 error 404 404 Not Found: gulp-l-less
+31 error 404
+31 error 404 'gulp-l-less' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'Scotchy'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.0.0
+33 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "gulp-l-less"
+34 error cwd /Users/Kenny/sprout_social
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
