@@ -1,37 +1,44 @@
-@link-color: #f6a03a;
-@link-color-hover: lighten(@link-color, 50%);
+@green: #62B621;
+@light-green: #7AC143;
+@lightest-grey: #F7F7F7;
+@black: #1A1A1A;
 
 body {
     -webkit-font-smoothing: antialiased;
     line-height: 32px;
     font-size: 20px;
-    color: #454054;
+    color: #6e6e6e;
     font-weight: 300;
+    margin: 0;
+
 }
 section, header, footer, main, article, nav, aside { position: relative; }
 a {
     outline: none !important;
     text-decoration: none !important;
-    color: @link-color;
+    //color: @link-color;
     transition: all 225ms ease;
 
     &a:hover,
     &a:focus {
-        color: @link-color-hover;
+        //color: @link-color-hover;
     }
 }
-p { margin-bottom: 18px; }
+//p { margin-bottom: 18px; }
 h1, .h1 {
-    font-size: 50px;
-    text-align: center;
-    font-weight: 300;
+    color: #000;
+    font-size: 51px;
+    line-height: 59px;
 }
 h2, .h2 {
-
+    font-size: 38px;
+    line-height: 46px;
 }
 h3, .h3 {
-
+    font-size: 28px;
+    line-height: 36px;
 }
 h4, .h4 {
-
+    font-size: 21px;
+    line-height: 29px;
 }
