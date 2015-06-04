@@ -1,8 +1,5 @@
-@black: #1a1a1a;
 header{
-    //display: -webkit-flex; /* Safari */
-    //display: flex;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     margin: auto;
     left: 50%;
@@ -18,7 +15,6 @@ header{
         margin-bottom: 17px;
         margin-left: 10px;
         margin-right: 10px;
-        //float: left;
         padding: 0px;
     }
 }
@@ -29,7 +25,6 @@ header{
 
     .title{
         color:#fff;
-        .font-weight-light();
     }
     .sub-title{
         color: #fff;
@@ -43,7 +38,6 @@ header{
         display: block;
         color: #666;
         text-align: center;
-       // content: 'No Credit Card Required';
         width: 258px;
 
     }
@@ -54,8 +48,7 @@ header{
     padding-top: 50px;
     padding-bottom: 50px;
     h3{
-        color: @black;
-        text-transform: uppercase;
+
         line-height: 14px;
     }
     .third{
@@ -65,5 +58,25 @@ header{
         &:last-child{
             float: right;
         }
+    }
+}
+#analytics{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        text-align: center;
+        color: rgb(15, 15, 15);
+    }
+    .laptop{
+        background: url('assets/laptop.png');
+        height: 470px;
+        background-size: cover;
+        background-position: 50% 0%;
+    }
+    .two-third{
+        float: left;
+    }
+    .third{
+        float: right;
     }
 }

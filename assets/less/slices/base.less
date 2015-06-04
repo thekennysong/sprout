@@ -29,16 +29,21 @@ a {
 //p { margin-bottom: 18px; }
 h1, .h1 {
     color: #000;
-    font-size: 51px;
-    line-height: 59px;
+    letter-spacing: 0px;
+    font-size: 30px;
+    line-height: 33px;
+    .font-weight-light();
 }
 h2, .h2 {
     font-size: 38px;
     line-height: 46px;
+    .font-weight-light();
 }
 h3, .h3 {
     font-size: 14px;
     line-height: 22px;
+    text-transform: uppercase;
+    color: @black;
 }
 h4, .h4 {
     font-size: 18px;
@@ -66,6 +71,10 @@ span{
     padding: 10px;
     display: inline-block;
 
+}
+.two-third{
+    width: 620px;
+    padding: 10px;
 }
 .half{
     width: 460px;
