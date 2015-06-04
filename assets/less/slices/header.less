@@ -85,13 +85,105 @@ header{
 }
 #brands{
     background: #eee;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     h1{
         text-align: center;
         margin-bottom: 0px !important;
     }
     h5{
         margin-top: 10px !important;
+        margin-bottom: 50px;
     }
+}
+
+.grid {
+        overflow: hidden;
+            max-width: 716em;
+            margin: 0 auto;
+            padding-left: 0px;
+
+        }
+
+    .grid li {
+        height:100px;
+        list-style-type: none;
+        position: relative;
+        overflow: hidden;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+
+    }
+    .grid li > a {
+
+        top:0;
+        right:0;
+        left:0;
+        bottom:0;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        font-weight: 600;
+    }
+
+    @media all and (min-width: 27em) {
+        .grid li {
+            width: 50%;
+            float: left;
+        }
+
+    }
+
+    @media all and (min-width: 40em) {
+        .grid li {
+            width: 33.3333333%;
+
+
+        }
+        .grid li.wide {
+            width: 66.666666% !important;
+        }
+
+
+
+    }
+    @media all and (min-width: 60em) {
+        .grid li {
+            width: 20% !important;
+
+        }
+        .grid li.wide {
+            width: 50% !important;
+        }
+    }
+.dove{
+    background: url('assets/brand-dove.svg');
+}
+.spotify{
+    background: url('assets/brand-spotify.svg');
+}
+.stanford{
+    background: url('assets/brand-stanford.svg');
+}
+.razorfish{
+    background: url('assets/brand-razorfish.svg');
+}
+.zipcar{
+    background: url('assets/brand-zipcar.svg');
+}
+.grubhub{
+    background: url('assets/brand-grubhub.svg');
+}
+.wharton{
+    background: url('assets/brand-wharton.svg');
+}
+.ups{
+    background: url('assets/brand-ups.svg');
+}
+.pepsico{
+    background: url('assets/brand-pepsico.svg');
+}
+.hyatt{
+    background: url('assets/brand-hyatt.svg');
 }
