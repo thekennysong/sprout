@@ -27,13 +27,14 @@ header{
         margin-bottom: 50px;
     }
     .credit{
-        padding-top: 16px;
+        padding-top: 15px;
         font-size: 12px;
         line-height: 22px;
         display: block;
         color: rgb(124, 124, 124);
         text-align: center;
         width: 235px;
+        transform: translateY(10px);
 
     }
     .third{
@@ -106,7 +107,6 @@ header{
 
 .grid {
     overflow: hidden;
-    max-width: 716em;
     margin: 0 auto;
     padding-left: 0px;
     li {
@@ -120,45 +120,21 @@ header{
     }
 }
 
-.grid li > a {
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    text-align: center;
-    position: absolute;
-    z-index: 1;
-    font-weight: 600;
-}
-
-    @media all and (min-width: 27em) {
-        .grid li {
-            width: 50%;
-            float: left;
-        }
-
+@media all and (min-width: 27em) {
+    .grid li {
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
     }
-
+}
 @media all and (min-width: 40em) {
     .grid li {
         width: 33.3333333%;
-
-
     }
-    .grid li.wide {
-        width: 66.666666% !important;
-    }
-
-
-
 }
 @media all and (min-width: 60em) {
     .grid li {
         width: 20% !important;
-
-    }
-    .grid li.wide {
-        width: 50% !important;
     }
 }
 .dove{
