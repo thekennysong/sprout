@@ -4,47 +4,45 @@ header{
     margin: auto;
     left: 50%;
     transform: translateX(-50%);
-    .logo{
-        top: 0px;
-        display: inline-block;
-        position: relative;
-        width: 141px;
-        height: 23px;
+    .logo-white{
+        .logo;
         background: url('assets/logo-white.svg');
-        margin-top: 17px;
-        margin-bottom: 17px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 0px;
+
     }
 }
 #call-to-action{
     background: #333;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     .title{
         color:#fff;
+        margin-bottom: 10px;
     }
     .sub-title{
         color: #fff;
-
-        margin-bottom: 45px;
+       // font-size: 16px;
+        letter-spacing: 0.2px;
+        margin-top: 16px;
+        margin-bottom: 50px;
     }
     .credit{
-        margin-top: 10px;
-        font-size: 14px;
+        padding-top: 16px;
+        font-size: 12px;
         line-height: 22px;
         display: block;
-        color: #666;
+        color: rgb(124, 124, 124);
         text-align: center;
-        width: 258px;
+        width: 235px;
 
+    }
+    .third{
+          transform: translateY(10px);
     }
     .two-third{
         float: right;
         iframe{
-              transform: translateY(61px);
+              transform: translateY(50px);
         }
     }
 
@@ -67,8 +65,7 @@ header{
     }
 }
 #analytics{
-    padding-top: 50px;
-    padding-bottom: 50px;
+
     h1{
         text-align: center;
         color: rgb(15, 15, 15);
@@ -87,6 +84,9 @@ header{
     }
     .third{
         float: right;
+        .fa-angle-right:before{
+            padding-left: 5px;
+        }
     }
 }
 #brands{
@@ -198,6 +198,7 @@ header{
     padding-bottom: 57px;
     h1{
         text-align: center;
+        padding-bottom: 25px;
     }
     .btn-large{
         margin: auto;
@@ -205,6 +206,55 @@ header{
         left: 50%;
         transform: translateX(-50%);
         position: absolute;
-        padding: 0px 26px;
+        //padding: 0px 26px;
+    }
+    .logo-reg{
+        .logo;
+        background: url('assets/logo.svg');
+        float: left;
+        background-size: cover;
+        //margin-right: 10px;
+
+    }
+    .top{
+        padding-bottom: 50px;
+    }
+    .bottom{
+        position: absolute;
+        padding-top: 90px;
+        padding-bottom: 50px;
+        .two-third{
+            float: left;
+            span{
+                bottom: 0;
+                line-height: 5.5;
+                display: inline-block;
+            }
+        }
+        .third{
+            float: right;
+            display: inline-block;
+            right: 0px;
+            text-align: right;
+            line-height: 3.5;
+            .facebook{
+                background: url('assets/icon-facebook.svg');
+                height: 24px;
+                width: 24px;
+                display: inline-block;
+            }
+            .twitter{
+                background: url('assets/icon-twitter.svg');
+                height: 24px;
+                width: 24px;
+                display: inline-block;
+            }
+            .google{
+                background: url('assets/icon-googleplus.svg');
+                height: 24px;
+                width: 24px;
+                display: inline-block;
+            }
+        }
     }
 }
