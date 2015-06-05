@@ -1,9 +1,9 @@
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1500px) {
+@media only screen and (min-width : 993px) {
     .container{
-        width: 961px;
+        width: 960px;
     }
 
 
@@ -13,6 +13,39 @@
 @media only screen and (max-width : 992px) {
     header{
         width: 960px;
+        left: 0%;
+        transform: none;
+    }
+    .container{
+        padding: 10px;
+    }
+    .hero-video{
+        width: 400px !important;
+        height: 239px !important;
+    }
+    #spotlight{
+        .third{
+            display: block;
+            float: none !important;
+        }
+    }
+    .image{
+        margin: auto;
+    }
+    #analytics {
+        .two-third{
+            float: none;
+            width: 475px;
+        }
+        .third{
+            float: none;
+        }
+        .laptop{
+            height: 375px;
+        }
+    }
+    .third{
+        width: auto;
     }
 
 }
