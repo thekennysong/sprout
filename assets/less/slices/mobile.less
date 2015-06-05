@@ -17,7 +17,12 @@
         transform: none;
     }
     .container{
-        padding: 10px;
+        padding: 20px;
+    }
+    #call-to-action{
+        .two-third{
+            float: none;
+        }
     }
     .hero-video{
         width: 400px !important;
@@ -27,8 +32,12 @@
         .third{
             display: block;
             float: none !important;
+            &:last-child{
+                float: none !important;
+            }
         }
     }
+
     .image{
         margin: auto;
     }
@@ -52,11 +61,42 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+#site-footer {
+    .logo-reg{
+        float: none;
+        display: block;
+        margin-left: 0px !important;
+    }
+    span{
+        display: block;
+        width: 184px;
+        line-height: 20px !important;
+    }
+}
+
+
+
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .hero-video{
+        width: 318px !important;
+        height: 188px !important;
+    }
+    #analytics{
+        .two-third{
+            width: 300px;
+        }
+        .laptop {
+            height: 250px;
+        }
+    }
+    .ups{
+        transform: translateY(-25%);
+    }
 
 }
 
